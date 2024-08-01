@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import   Axios  from 'axios';
 import { useParams } from 'react-router-dom';
+import Markdown from 'react-markdown';
+
 const SecAnalysis = () => {
     const [analysisResult, setAnalysisResult] = useState('');
     const { id}  = useParams();
@@ -22,7 +24,7 @@ const SecAnalysis = () => {
     <div>
      
       <h1>Analysis Result</h1>
-      <p>{analysisResult}</p>
+      <Markdown>{analysisResult}</Markdown>
     </div>
   )
 }
