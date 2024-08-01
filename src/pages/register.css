@@ -1,12 +1,13 @@
 .box{
     width: 50vw;
-    /* background-image: url('/tech.jpg') ; */
+    background-image: url('/bg-img.png') ;
     background-size:cover; 
     background-repeat: no-repeat;
-    background-color: rgb(95, 41, 146);  margin: 0;
+    background-color: rgb(95, 41, 146);  margin: 1rem;
     padding: 0;
   right: 0;
   top: 0;
+  margin-right: 1rem;
     
   }
   

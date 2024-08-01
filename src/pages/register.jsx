@@ -55,7 +55,7 @@ function Register() {
                 {error && <div className="error">{error}</div>}
                 <div className='d-flex gap-2'>
                     <p>Login Now !</p>
-                    <a href="/login/dashboard">Login</a>
+                    <a href="/">Login</a>
                     </div>
             </div>
             <div className='box'>
