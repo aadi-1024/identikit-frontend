@@ -1,0 +1,10 @@
+.create-snippet-form {
+    margin-top: 1.5 rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.create-snippet-form > form {
+    width: 75%;
+}
